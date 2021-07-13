@@ -1,0 +1,342 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.booking {
+  max-height: 400px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.carousel-item {
+  color: #FFF8DC;
+  height: 700px;
+  max-height: 700px;
+}
+
+.carousel-caption {
+    top: 7px;
+    bottom: auto;
+    right: 200px;
+    color: #FD6721;
+}
+
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #212529;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ee4400;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+  padding-left: 15%;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+
+.navbar-collapse {
+  padding-right: 12%;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+  background-color: #ee4400;
+  /* add background-color to active links */
+}
+
+.navbar-custom {
+  background-color: #ff5500;
+}
+
+.white-section {
+  background-color: #E7E6E6;
+}
+
+.car-rates {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-default,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #FD6721;
+    border-color: #FD6721;
+}
+ /* Booking Section */
+ .section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('../images/bookingSectionImage.png');
+	background-size: cover;
+	background-position: center;
+	font-weight: 300;
+  max-height: 410px;
+}
+
+.booking-form {
+	background: #FD6721;
+	padding: 30px 15px 0px;
+	border-radius: 4px;
+	overflow: auto;
+  max-height: 400px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+  margin-right: 4px;
+}
+
+.booking-form .form-control {
+	border: none;
+	height: 65px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 24px;
+	color: #090a0b;
+	font-weight: 300;
+	background: #f2f1f1;
+	border-radius: 4px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: #b1b6bd;
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: #b1b6bd;
+}
+
+.booking-form .form-control::placeholder {
+	color: #b1b6bd;
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: #b1b6bd;
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 24px;
+	text-align: center;
+	pointer-events: none;
+	height: 65px;
+	line-height: 65px;
+	color: #b1b6bd;
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+  color: #000000;
+	display: block;
+	font-weight: 600;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	position: relative;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.booking-form .form-label:after {
+	content: '';
+	position: absolute;
+	left: 10px;
+	top: -10px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #f2f1f1 transparent transparent transparent;
+}
+
+.booking-form .form-btn {
+	margin-bottom: 30px;
+}
+
+.booking-form .submit-btn {
+	background: #184c8f;
+	border: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	height: 90px;
+	font-size: 18px;
+	width: 100%;
+	color: #fff;
+	border-radius: 4px;
+	display: block;
+}
+
+/* Our Fleet Section */
+.ourfleet-title {
+  color: #ee4400;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.ourFleet-container {
+  margin: 50px 0;
+  background-color: #212529;
+}
+
+.fleet-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.fleet-section {
+margin: 100px auto 100px auto;
+text-align: left;
+background-color: #212529;
+color: #5eaaa8;
+padding-bottom: 5px;
+}
+
+.suvfleet-image {
+  width: 60%;
+border-radius: 100px;
+float: left;
+margin-right: 30px;
+}
+
+.exoticCar-image {
+  width: 50%;
+border-radius: 100px;
+float: right;
+margin-right: 30px;
+}
+
+.rollsfleet-image {
+  /* line-height: 2; */
+width: 45%;
+border-radius: 100px;
+float: left;
+margin-right: 30px;
+}
+
+.normalcar-image {
+  /* line-height: 2; */
+width: 45%;
+border-radius: 100px;
+float: right;
+margin-right: 30px;
+}
+
+
+
+
+ /* Footer Section */
+
+ .footer-section {
+   background-color: #212529;
+   font-weight: 200;
+ }
+ .social-icon {
+  margin: 20px 10px
+}
+
+.fa-cog {
+  color: #FD6721;
+}
+
+.footer-text {
+  color: #FD6721;
+}
+
+.congrats-footer {
+
+}
+
+.congrats-section {
+  margin-top: 150px;
+  margin-bottom: 300px;
+}
+
+.congrats-navbar {
+  margin-left: 400px
+}
+
+.gobackHome-btn {
+  margin-bottom: 2px;
+}
